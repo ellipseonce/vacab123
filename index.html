@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vocably - The Dictionary App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="nav-brand">
+            <h1>Vocably</h1>
+            <p class="tagline">Enrich your vocabulary</p>
+          </div>
+
+          <div class="nav-links">
+            <a href="#about" class="nav-link"
+              ><i class="fas fa-info-circle"></i> About</a
+            >
+            <a href="#careers" class="nav-link"
+              ><i class="fas fa-briefcase"></i> Careers</a
+            >
+            <a href="#contact" class="nav-link"
+              ><i class="fas fa-envelope"></i> Contact</a
+            >
+            <a href="#help" class="nav-link"
+              ><i class="fas fa-question-circle"></i> Help</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="search-container">
+        <form action="">
+          <input type="text" placeholder="Search for a word..." />
+          <button type="submit" id="btn">
+            <i class="fas fa-search"></i> Search
+          </button>
+        </form>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-book-reader"></i>
+          </div>
+          <h3>Dictionary</h3>
+          <p>Comprehensive definitions with examples and pronunciations</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-volume-up"></i>
+          </div>
+          <h3>Pronunciation</h3>
+          <p>Clear audio pronunciations in multiple accents</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Learning Tools</h3>
+          <p>Enhance your vocabulary with our learning resources</p>
+        </div>
+      </div>
+
+      <div class="highlight-section">
+        <div class="highlight-card">
+          <div class="highlight-content">
+            <h2>Word of the Day</h2>
+            <div id="word-of-the-day"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-section">
+        <div class="stat-card">
+          <i class="fas fa-book"></i>
+          <h3>1M+</h3>
+          <p>Words</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-users"></i>
+          <h3>5M+</h3>
+          <p>Users</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-globe"></i>
+          <h3>50+</h3>
+          <p>Languages</p>
+        </div>
+      </div>
+    </main>
+
+    <article>
+      <section class="card-section">
+        <div class="card">
+          <img
+            src="images/Screenshot 2024-12-28 at 5.24.04 PM.png"
+            alt="Word lists"
+          />
+          <h3>Word lists</h3>
+          <p>
+            Our word lists are designed to help learners at any level focus on
+            the most important words to learn. Explore our general English and
+            academic English lists.
+          </p>
+          <a href="images/Screenshot 2024-12-28 at 5.25.04 PM.png"
+            >See the word lists</a
+          >
+        </div>
+
+        <div class="card">
+          <img
+            src="https://dtcfza6z1c8xn.cloudfront.net/OLD_WoTM_culture_war.png"
+          />
+          <h3>Spread the Word</h3>
+          <p>
+            A recent addition to our online dictionary is the term
+            <strong>culture war</strong>, used to describe conflicts between
+            groups with different ideals and beliefs.
+          </p>
+          <a href="link-to-blog.html">Read our blog</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Screenshot 2024-12-28 at 5.27.46 PM.png"
+            alt="Topic Dictionaries"
+          />
+          <h3>Topic Dictionaries</h3>
+          <p>
+            Our Topic Dictionaries are lists of topic-related words, like
+            <strong>Animals</strong> and <strong>Health</strong>, to expand your
+            vocabulary. Each topic is divided into smaller subtopics with CEFR
+            levels.
+          </p>
+          <a href="link-to-topics.html">Browse Topics</a>
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Screenshot 2024-12-28 at 5.28.48 PM.png"
+            alt="Learn & Practise Grammar"
+          />
+          <h3>Learn & Practise Grammar</h3>
+          <p>
+            Our grammar pages combine clear explanations with interactive
+            exercises to test your understanding.
+          </p>
+          <a href="link-to-grammar.html">Try it out</a>
+        </div>
+      </section>
+    </article>
+
+    <section id="about" class="content-section">
+      <div class="section-container">
+        <h2><i class="fas fa-info-circle"></i> About Vocably</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <i class="fas fa-book"></i>
+            <h3>Our Mission</h3>
+            <p>
+              Empowering language learners worldwide with comprehensive
+              dictionary tools and resources for vocabulary enhancement.
+            </p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-users"></i>
+            <h3>Our Community</h3>
+            <p>
+              Join millions of users who trust Vocably for their daily language
+              learning journey.
+            </p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Our Impact</h3>
+            <p>
+              Supporting education through partnerships with schools and
+              language institutions globally.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="careers" class="content-section">
+      <div class="section-container">
+        <h2><i class="fas fa-briefcase"></i> Join Our Team</h2>
+        <div class="careers-grid">
+          <div class="job-card">
+            <h3>Software Engineer</h3>
+            <p>Help build the future of language learning technology.</p>
+            <button class="apply-btn">Apply Now</button>
+          </div>
+          <div class="job-card">
+            <h3>Content Writer</h3>
+            <p>Create engaging linguistic content for our platform.</p>
+            <button class="apply-btn">Apply Now</button>
+          </div>
+          <div class="job-card">
+            <h3>UX Designer</h3>
+            <p>Design intuitive experiences for language learners.</p>
+            <button class="apply-btn">Apply Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section">
+      <div class="section-container">
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>123 Dictionary Lane<br />Word City, LC 12345</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>support@vocably.com</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="help" class="content-section">
+      <div class="section-container">
+        <h2><i class="fas fa-question-circle"></i> Help Center</h2>
+        <div class="help-grid">
+          <div class="help-card">
+            <h3>FAQs</h3>
+            <ul>
+              <li>How to use the dictionary?</li>
+              <li>What does the pronunciation guide mean?</li>
+              <li>How to save favorite words?</li>
+              <li>Where to find word lists?</li>
+            </ul>
+          </div>
+          <div class="help-card">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">User Guide</a></li>
+              <li><a href="#">Video Tutorials</a></li>
+              <li><a href="#">Support Forum</a></li>
+              <li><a href="#">Report an Issue</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="#about">About Us</a>
+            <a href="#careers">Careers</a>
+            <a href="#contact">Contact</a>
+            <a href="#help">Help Center</a>
+          </div>
+          <div class="footer-section">
+            <h3>Legal</h3>
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Use</a>
+            <a href="#cookies">Cookie Policy</a>
+          </div>
+          <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Vocably. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
